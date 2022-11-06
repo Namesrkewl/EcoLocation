@@ -1,3 +1,25 @@
 .navbar {
   background-color: gray;
+  border: 2px solid black;
+  border-left: none;
+  border-right: none;
+
+  padding: 20px 20px 20px 20px;
+}
+.navbar-container {
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.announcements {
+  display: flex;
+  flex-direction: row;
+}
+
+.login {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
 }

@@ -1,0 +1,28 @@
+.body-container {
+}
+
+.title {
+  justify-content: center;
+}
+.subtitle {
+  justify-content: center;
+  background-color: lightgreen;
+}
+
+.first-paragraph {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 20px 20px;
+  max-width: 1000px;
+}
+.what-we-provide {
+  padding: 20px 0px;
+}
+.we-provide-row {
+  padding-bottom: 40px;
+}
+.register-button {
+  text-decoration: none;
+  background: none;
+  background-color: rgb(223, 216, 75);
+}
