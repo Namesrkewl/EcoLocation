@@ -18,7 +18,7 @@ function Navs() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/annoucements">Annonucements</Nav.Link>
+              <Nav.Link href="/announcements">Announcements</Nav.Link>
             </Nav>
             <Nav>
               <Nav.Link eventKey={2} variant="primary" onClick={handleShow}>

@@ -4,7 +4,7 @@ const { request } = require("express");
 const router = express.Router();
 
 // Variable storing an array of users on the site
-const users = [];
+const users = [{firstName: "John", lastName: "Smith", email: "email@domain.com", userName: "Username", password: "Password", identity: "Student", classification: "Construction"}];
 
 // All routes in this file start with /users, so it's not needed in routing
 // All routes are read from top to bottom in express, keep the dynamic users at the bottom and new users near the top
@@ -27,7 +27,7 @@ router.post("/", async (req, res) => {
     if (isValid) {
         try {
             const hashedPassword = await bcrypt.hash(req.body.password, 10);
-            const user = {firstName: req.body.firstName, lastName: req.body.lastName, email: req.body.email, userName: req.body.userName, password: hashedPassword, identity: req.body.identity};
+            const user = {firstName: req.body.firstName, lastName: req.body.lastName, email: req.body.email, userName: req.body.userName, password: hashedPassword, identity: req.body.identity, classification: req.body.classification};
             users.push(user);
             res.redirect(`/users/${users.length - 1}`);
         } catch {

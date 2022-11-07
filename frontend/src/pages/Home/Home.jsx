@@ -8,6 +8,9 @@ function Home() {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  const handleSubmit = () => {
+    setShow(false);
+  }
   return (
     <>
       <Container className="body-container" fluid>
@@ -150,7 +153,7 @@ function Home() {
                   >
                     <Form.Label>First Name</Form.Label>
                     <Form.Control
-                      type="name"
+                      type="text"
                       placeholder="First Name"
                       autoFocus
                     />

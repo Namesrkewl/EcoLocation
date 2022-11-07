@@ -1,8 +1,8 @@
-GET http://localhost:3000/users
+GET http://localhost:5000/users
 
 ###
 
-POST http://localhost:3000/users
+POST http://localhost:5000/users
 Content-type: application/json
 
 {
@@ -11,12 +11,13 @@ Content-type: application/json
     "email": "email@domain.com",
     "userName": "username",
     "password": "password",
-    "identity": "Student"
+    "identity": "Student",
+    "classification": "Construction"
 }
 
 ###
 
-POST http://localhost:3000/users/login
+POST http://localhost:5000/users/login
 Content-type: application/json
 
 {
