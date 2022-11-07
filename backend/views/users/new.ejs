@@ -1,0 +1,30 @@
+<body>
+    <form action="/users" method="POST">
+        <label>First Name
+            <input type="text" name="firstName" value="<%= locals.firstName %> " />
+        </label>
+        <label>Last Name
+            <input type="text" name="lastName" value="<%= locals.lastName %> " />
+        </label>
+        <br>
+        <label>Email
+            <input type="text" name="email" value="<%= locals.email %>" />
+        </label>
+        <label>Username
+            <input type="text" name="userName" value="<%= locals.userName %>" />
+        </label>
+        <br>
+        <label>Password
+            <input type="password" name="password" value="<%= locals.password %>" />
+        </label>
+        <label for="identity">I am a(n)...</label>
+            <select name="identity" id="identity" value="<%= locals.identity %> ">
+            <option value="Student">Student</option>
+            <option value="Educator">Educator</option>
+            <option value="Organization">Organization</option>
+            <option value="Official">Official</option>
+            </select>
+        <br>
+        <button type="submit">Submit</button>
+    </form> 
+</body>
