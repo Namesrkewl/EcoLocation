@@ -100,8 +100,34 @@ function Home() {
                     className="mb-3"
                     controlId="exampleForm.ControlInput1"
                   >
+                    <Form.Label>First Name</Form.Label>
+                    <Form.Control
+                      type="name"
+                      placeholder="First Name"
+                      autoFocus
+                    />
+                  </Form.Group>
+                  <Form.Group
+                    className="mb-3"
+                    controlId="exampleForm.ControlInput2"
+                  >
+                    <Form.Label>Last Name</Form.Label>
+                    <Form.Control
+                      id="firstname"
+                      type="text"
+                      name="firstname"
+                      placeholder="Last Name"
+                      autoFocus
+                    />
+                  </Form.Group>
+                  <Form.Group
+                    className="mb-3"
+                    controlId="exampleForm.ControlInput3"
+                  >
                     <Form.Label>Email address</Form.Label>
                     <Form.Control
+                      id="emal"
+                      name="email"
                       type="email"
                       placeholder="name@example.com"
                       autoFocus
@@ -109,11 +135,37 @@ function Home() {
                   </Form.Group>
                   <Form.Group
                     className="mb-3"
-                    controlId="exampleForm.ControlTextarea1"
+                    controlId="exampleForm.ControlInput4"
                   >
-                    <Form.Label>Example textarea</Form.Label>
-                    <Form.Control as="textarea" rows={3} />
+                    <Form.Label>Username</Form.Label>
+                    <Form.Control
+                      id="username"
+                      type="text"
+                      name="username"
+                      placeholder="Username"
+                      autoFocus
+                    />
                   </Form.Group>
+                  <Form.Group
+                    className="mb-3"
+                    controlId="exampleForm.ControlInput5"
+                  >
+                    <Form.Label>Password</Form.Label>
+                    <Form.Control
+                      id="password"
+                      name="password"
+                      type="password"
+                      placeholder="PassWord1234@"
+                      autoFocus
+                    />
+                  </Form.Group>
+                  <Form.Select aria-label="Default select example">
+                    <option>Open this select menu</option>
+                    <option value="1">Student</option>
+                    <option value="2">Educators</option>
+                    <option value="3">Organizations</option>
+                    <option value="4">Officials</option>
+                  </Form.Select>
                 </Form>
               </Modal.Body>
               <Modal.Footer>
@@ -121,7 +173,7 @@ function Home() {
                   Close
                 </Button>
                 <Button variant="primary" onClick={handleClose}>
-                  Save Changes
+                  Submit
                 </Button>
               </Modal.Footer>
             </Modal>

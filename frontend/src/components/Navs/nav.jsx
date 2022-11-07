@@ -34,19 +34,23 @@ function Navs() {
                       className="mb-3"
                       controlId="exampleForm.ControlInput1"
                     >
-                      <Form.Label>Email address</Form.Label>
+                      <Form.Label>Username</Form.Label>
                       <Form.Control
-                        type="email"
-                        placeholder="name@example.com"
+                        type="username"
+                        placeholder="Username"
                         autoFocus
                       />
                     </Form.Group>
                     <Form.Group
                       className="mb-3"
-                      controlId="exampleForm.ControlTextarea1"
+                      controlId="exampleForm.ControlInput2"
                     >
-                      <Form.Label>Example textarea</Form.Label>
-                      <Form.Control as="textarea" rows={3} />
+                      <Form.Label>Password</Form.Label>
+                      <Form.Control
+                        type="password"
+                        placeholder="Password"
+                        autoFocus
+                      />
                     </Form.Group>
                   </Form>
                 </Modal.Body>
@@ -55,7 +59,7 @@ function Navs() {
                     Close
                   </Button>
                   <Button variant="primary" onClick={handleClose}>
-                    Save Changes
+                    Submit
                   </Button>
                 </Modal.Footer>
               </Modal>
