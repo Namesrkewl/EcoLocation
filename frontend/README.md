@@ -11,4 +11,7 @@ Our website is being hosted via a Linux virtual machine on Google Cloud.
 
 
 We provide a platform through which organizations supporting environment efforts are able to easily promote their efforts and events, as well as providing those working in or entering into these career fields with a direct line of connection to organizations and educators who can support them.
-[EcoLocation Final Presentation.pdf](https://github.com/ak007777/EcoLocation/files/9956450/EcoLocation.Final.Presentation.pdf)
+
+
+
+[EcoLocation Final Presentation.pdf](https://github.com/ak007777/EcoLocation/files/9956458/EcoLocation.Final.Presentation.pdf)
