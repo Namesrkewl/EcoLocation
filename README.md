@@ -7,7 +7,7 @@ EcoLocation website aims to connect organizations, officials, educators, and peo
 By combining the following technologies below.
 
 
-Langages we use Node js, Express js, and XAMPP as well as that we have the structure of a mySQL and PHP connection.
+Langages we use Node js, Express js, and XAMPP as well as the structure of a mySQL and PHP connection.
 Our website is being hosted via a Linux virtual machine on Google Cloud.
 
 
