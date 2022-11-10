@@ -8,9 +8,6 @@ function Home() {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  const handleSubmit = () => {
-    setShow(false);
-  }
   return (
     <>
       <Container className="body-container" fluid>
