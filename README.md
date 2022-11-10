@@ -1,4 +1,8 @@
 # EcoLocation
+This Repository was my team's submission for the 4-day long HPC Dallas in the City Hackathon. This project won the HPC Impact Award.
+Information about that Hackathon can be found here: https://hackhpc.github.io/HPCintheCity22/
+Our product's promotional video made by Khadar Coleman can be found here: https://www.youtube.com/watch?v=blV6x6pX6vI
+
 EcoLocation's Repository for HPC Hackathon 2022
 
 
